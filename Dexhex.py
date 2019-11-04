@@ -1,13 +1,11 @@
-# dechex.py CWC BK
+# dechex.py CWC BK kenny
 def hexcon(num):
-	print(num," in dechex function ",end="")
+	key = "0123456789abcdef"
 	h = ""
 	h16 = int(num/16)
-	if(h16 > 9):
-		print("h16 is greater than 9")
 	h1 = num % 16
 	h = str(h16)+str(h1)
-	return "ff"
+	return h
 	
 def main():
 	hs = ""
