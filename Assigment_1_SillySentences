@@ -1,0 +1,28 @@
+print ("Let's play Silly Sentences!")
+
+N=input("Enter a name:")
+
+A=input("Enter an adjective:")
+
+a=input("Enter an adjective:")
+
+ad=input("Enter an adverb:")
+
+f=input("Enter a food:")
+
+F=input("Enter another food:")
+
+n=input("Enter a noun:")
+
+p=input("Enter a place:")
+
+v=input("Enter a verb:")
+
+
+print(f'{N} was planning a dream vacation to {p}.')
+print(f'{N} was especially looking forward to trying the local cuisine,')
+print(f'including {A} {f} and {F}.')
+print(f'{N} will have to practice the language {ad} to')
+print(f'make it easier to {v} with people.')
+print(f'{N} has a long list of sights to see, including')
+print(f'the {n} museum and the {a} park.')
