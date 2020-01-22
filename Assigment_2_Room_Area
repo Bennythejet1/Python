@@ -1,0 +1,18 @@
+# Should find area of irregular shape #
+# Imports $
+import time
+# Input sides #
+a = int(input("Please enter side A: "))
+b = int(input("Please enter side B: "))
+c = int(input("Please enter side C: "))
+d = int(input("Please enter side D: "))
+e = int(input("Please enter side E: "))
+# Area #
+area1 = (a * b)
+area2 = (a - c) * (d - e - b)
+area3 = e * (a- c) / 2 
+area4 = float(area1 + area2 + area3)
+# Print #
+time.sleep(.5)
+print("The area is: " + str(area4))
+# End #
