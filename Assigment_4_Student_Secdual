@@ -1,0 +1,30 @@
+# First and last name #
+firstName = input("What is your first name? ")
+lastName = input("What is your last name? ")
+studentID = input("Student ID: ")
+
+# Enter name and id #
+print("*************************************************")
+print("*                                               *")
+print("*\t" + lastName + ", " + firstName + "\t" + "ID: " + studentID + "\t\t*")
+print("*                                               *")
+print("*************************************************")
+
+# Schedule Input #
+print("*                                               *")
+schedule = input("Enter the next class, STOP to end: ")
+blockNum = 0
+
+while schedule != "STOP":
+   blockNum += 1
+   classNum = input("Enter the room number: ")
+   print("*\t" + "Block " + str(blockNum) + ": " + schedule + "\tRoom: " + classNum + "\t*")
+   schedule = input("Enter the next class, STOP to end: ")
+    
+print("*                                               *")   
+print("*************************************************")
+print("*                                               *")
+print("*************************************************")
+
+
+# END #
