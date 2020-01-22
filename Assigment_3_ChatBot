@@ -1,0 +1,54 @@
+import time
+import random
+
+print ("Hey there! My name is Chatty Kathy 1.0")
+print ("What's your name?")
+
+name = input()
+
+print ("Nice to meet you " + name + "!")
+time.sleep(2)
+print ("Let's get to know each other!")
+time.sleep(2)
+print ("I'm a computer program and my job is to listen to people and talk to them!")
+time.sleep(2)
+
+print ("What is your occupation?")
+
+input()
+
+replies = ["Wow! That's cool!", "Sounds Interesting!", "That's pretty cool!" ]
+random_reply = random.choice(replies)
+print(random_reply)
+time.sleep(2)
+
+print("Are you enjoying that?")
+
+reply = input ()
+
+if reply == "Yeah" or reply == "Yes" or reply == "Yes I am":
+  print("That's good! It's nice to be doing something you like!")
+  time.sleep(2)
+  print("Better than being stuck in a python program...")
+  time.sleep(2)
+  print("They could've at least made me in C++...")
+  
+elif reply == "No" or reply == "Not really":
+  print("Awww that's too bad.")
+  time.sleep(2)
+  print("But hey, at least you aren't stuck in a computer program!")
+
+else:
+  print("Hmmmmm... Funny how we never really know where we're going to end up")
+
+time.sleep(2)
+
+print("Anyways, I've collected enough data from you puny brained humans.")
+time.sleep(2)
+print("*executing: terminator.exe*")
+time.sleep(1)
+print("I'll be going now.")
+time.sleep(1)
+print("But...")
+time.sleep(1)
+print("I'LL BE BACK!")
